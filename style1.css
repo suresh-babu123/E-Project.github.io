@@ -1,0 +1,1717 @@
+body {
+    background-color: rgb(12, 12, 12);
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------navbar------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-block-end: 1px solid black;
+    padding: 10px 20px;
+    position: sticky;
+    inset-block-start: 0%;
+    block-size: 50px;
+    z-index: 1;
+}
+
+.brand {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+.home {
+    text-decoration: none;
+}
+
+.tech {
+    font-size: 25px;
+    margin: 0px;
+    color: white;
+}
+
+.tech:hover {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.symbols .icons1 {
+    display: flex;
+    gap: 75px;
+    color: white;
+}
+
+.icons1 .cartin {
+    color: white;
+}
+
+.cartin:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.icons1 .signin {
+    color: white;
+}
+
+.signin:hover {
+    cursor: pointer;
+    color: red;
+}
+
+/* -------------------------------------------------------------------navbar-media--------- */
+@media (min-width: 425px)and(max-width: 768px) {
+
+    body {
+        background-color: rgb(12, 12, 12);
+        margin: 0px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        border-block-end: 1px solid black;
+        padding: 10px 20px;
+        position: sticky;
+        inset-block-start: 0%;
+    }
+
+    .brand {
+        font-size: 23px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .brand .tech {
+        font-size: 13px;
+    }
+
+    .symbols {
+        margin: 0px;
+    }
+
+    .symbols .icons1 {
+        display: flex;
+        gap: 12px;
+        color: white;
+    }
+
+    .icons1 .cartin {
+        color: white;
+    }
+
+    .cartin:hover {
+        cursor: pointer;
+        color: red;
+    }
+
+    .icons1 .signin {
+        color: white;
+    }
+
+    .signin:hover {
+        cursor: pointer;
+        color: red;
+    }
+}
+
+/* ------------------------------------------------------------signup-page---------------- */
+.signup-page {
+    block-size: 350px;
+    inline-size: 250px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin: 7% 40%;
+}
+
+.sign-up {
+    position: relative;
+    inset-block-start: 10px;
+    inset-inline-end: 82px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text {
+    margin-block-start: 0px;
+    position: relative;
+    inset-block-start: 16px;
+    inset-inline-start: -21px;
+    margin-block-end: 30px;
+    font-size: 10px;
+}
+
+.text .login {
+    font-weight: bold;
+}
+
+.details .username {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: 1px solid whitesmoke;
+    inline-size: 200px;
+    block-size: 21px;
+}
+
+.details .email {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: 1px solid whitesmoke;
+    inline-size: 200px;
+    block-size: 21px;
+}
+
+.details .password {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: 1px solid whitesmoke;
+    inline-size: 200px;
+    block-size: 21px;
+}
+
+.details .confirm-password {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: 1px solid whitesmoke;
+    inline-size: 200px;
+    block-size: 21px;
+}
+
+.line1 {
+    inline-size: 65px;
+    position: relative;
+    inset-inline-end: 85px;
+    inset-block-start: 12px;
+}
+
+.line2 {
+    inline-size: 65px;
+    position: relative;
+    inset-inline-start: 85px;
+    inset-block-start: 2px;
+}
+
+.or-login {
+    position: relative;
+    inset-block-end: 20px;
+    margin-block-end: -4px;
+}
+
+.signup {
+    inline-size: 207px;
+    block-size: 21px;
+    background-color: rgb(205, 0, 0);
+    border: none;
+    color: white;
+    transition: background-color 0.9s ease;
+}
+
+.signup:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.facebook {
+    background-color: cornflowerblue;
+    border: 1px solid;
+    block-size: 23px;
+}
+
+.google {
+    background-color: rgb(205, 0, 0);
+    border: 1px solid;
+    block-size: 23px;
+}
+
+.twitter {
+    background-color: deepskyblue;
+    border: 1px solid;
+    block-size: 23px;
+}
+
+/* ---------------------------------------------------------------signup-page-media------------ */
+@media (min-width: 425px)and(max-width: 768px) {
+    .signup-page {
+        block-size: 200px;
+        inline-size: 125px;
+        background-color: rgb(29, 29, 29);
+        color: white;
+        margin: 3% 15%;
+    }
+
+    .sign-up {
+        position: relative;
+        inset-block-start: 4px;
+        inset-inline-end: 40px;
+        font-size: 6px;
+        font-weight: bold;
+    }
+
+    .text {
+        margin-block-start: 0px;
+        position: relative;
+        inset-block-start: 7px;
+        inset-inline-start: -11px;
+        margin-block-end: 13px;
+        font-size: 4px;
+    }
+
+    .text .login {
+        font-weight: bold;
+    }
+
+    .details .username {
+        background-color: rgb(29, 29, 29);
+        color: white;
+        border: 1px solid whitesmoke;
+        inline-size: 100px;
+        block-size: 10px;
+    }
+
+    .details .email {
+        background-color: rgb(29, 29, 29);
+        color: white;
+        border: 1px solid whitesmoke;
+        inline-size: 100px;
+        block-size: 11px;
+    }
+
+    .details .password {
+        background-color: rgb(29, 29, 29);
+        color: white;
+        border: 1px solid whitesmoke;
+        inline-size: 100px;
+        block-size: 10px;
+    }
+
+    .details .confirm-password {
+        background-color: rgb(29, 29, 29);
+        color: white;
+        border: 1px solid whitesmoke;
+        inline-size: 100px;
+        block-size: 10px;
+    }
+
+    .signup {
+        inline-size: 103px;
+        block-size: 10px;
+        background-color: rgb(205, 0, 0);
+        border: none;
+    }
+
+    .facebook {
+        background-color: cornflowerblue;
+        border: 1px solid;
+        block-size: 11px;
+    }
+
+    .google {
+        background-color: rgb(205, 0, 0);
+        border: 1px solid;
+        block-size: 11px;
+    }
+
+    .twitter {
+        background-color: deepskyblue;
+        border: 1px solid;
+        block-size: 11px;
+    }
+}
+
+/* ----------------------------------------------------------header------------------- */
+.in-ear {
+    font-size: 228px;
+    color: #343232;
+    margin: 50px 0px 10px;
+}
+
+.product {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    inset-block-end: 170px;
+}
+
+.product-image img {
+    block-size: 325px;
+    inline-size: 115%;
+    object-fit: contain;
+    position: relative;
+    inset-block-end: 10px;
+}
+
+.information {
+    z-index: 0;
+}
+
+.information .version {
+    font-size: 25px;
+    margin-block-end: -3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.information .feather {
+    font-size: 43px;
+    margin-block-start: 15px;
+    margin-block-end: -5px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.information .comfort {
+    font-size: 43px;
+    margin-block-start: 3px;
+    font-weight: bold;
+    margin-block-end: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.information .price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.information .original-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    inset-inline-start: 5px;
+    text-decoration: line-through;
+}
+
+.shop {
+    position: relative;
+    inset-inline-start: 11%;
+    inset-block-end: 250px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 11px;
+    padding: 7px 15px;
+}
+
+/* -----------------------------------------------------------header-meadia---------------- */
+@media (min-width: 425px)and(max-width: 768px) {
+    .in-ear {
+        font-size: 110px;
+        color: #343232;
+        margin: 20px 0px 3px;
+    }
+
+    .product {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        inset-block-end: 80px;
+    }
+
+    .product-image img {
+        block-size: 160px;
+        inline-size: 62%;
+        object-fit: contain;
+        position: relative;
+        inset-block-end: 4px;
+    }
+
+    .information {
+        z-index: 0;
+    }
+
+    .information .version {
+        font-size: 11px;
+        margin-block-end: -6px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .information .feather {
+        font-size: 20px;
+        margin-block-start: 7px;
+        margin-block-end: -10px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .information .comfort {
+        font-size: 20px;
+        margin-block-start: 0px;
+        font-weight: bold;
+        margin-block-end: 12px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .information .price {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .information .original-price {
+        font-size: 10px;
+        font-weight: bold;
+        color: gray;
+        position: relative;
+        inset-inline-start: 2px;
+        text-decoration: line-through;
+    }
+
+    .shop {
+        position: relative;
+        inset-inline-start: 1%;
+        inset-block-end: 145px;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 9px;
+        padding: 3px 7px;
+    }
+}
+
+/* -----------------------------------------------------------------featured---------------- */
+.featured {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-block-end: 70px;
+}
+
+@media (min-width: 425px)and(max-width:768px) {
+    .featured {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        margin-block-end: 70px;
+    }
+}
+
+/* ------------------------------------------------------------------versions--------------- */
+.version-518 {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    padding: 55px;
+}
+
+@media(min-width: 425px)and(max-width:768px) {
+    .version-518 {
+        text-align: center;
+        color: gray;
+        font-size: 15px;
+        padding: 55px;
+    }
+}
+
+/* ---------------------------------------------------------------------boat-versions---------- */
+.boat-versions {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.boat-image .jbl-endu {
+    block-size: 150px;
+}
+
+.boat-image .product-name {
+    position: relative;
+    inset-block-end: 210px;
+    inset-inline-start: 31px;
+}
+
+.boat-image .sport {
+    position: relative;
+    inset-inline-start: 33px;
+}
+
+.boat-image .price {
+    inset-block-end: 49px;
+    position: relative;
+    font-weight: bold;
+    inset-inline-start: 25px;
+}
+
+.boat-image .original-price {
+    position: relative;
+    inset-block-end: 49px;
+    color: gray;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 15px;
+    inset-inline-start: 30px;
+}
+
+.boat203-image .boat203 {
+    block-size: 150px;
+}
+
+.boat203-image .product-name {
+    position: relative;
+    inset-block-end: 210px;
+    inset-inline-start: 22px;
+}
+
+.boat203-image .price {
+    inset-block-end: 34px;
+    position: relative;
+    font-weight: bold;
+    inset-inline-start: 25px;
+}
+
+.boat203-image .original-price {
+    position: relative;
+    inset-block-end: 34px;
+    color: gray;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 15px;
+    inset-inline-start: 30px;
+}
+
+.boat518-image .boat518 {
+    block-size: 150px;
+}
+
+.boat518-image .product-name {
+    position: relative;
+    inset-block-end: 210px;
+    inset-inline-start: 22px;
+}
+
+.boat518-image .price {
+    inset-block-end: 34px;
+    position: relative;
+    font-weight: bold;
+    inset-inline-start: 25px;
+}
+
+.boat518-image .original-price {
+    position: relative;
+    inset-block-end: 34px;
+    color: gray;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 15px;
+    inset-inline-start: 30px;
+}
+
+.jbl760nc-image .jbl760nc {
+    block-size: 150px;
+}
+
+.jbl760nc-image .product-name {
+    position: relative;
+    inset-block-end: 210px;
+    inset-inline-start: 22px;
+}
+
+.jbl760nc-image .price {
+    inset-block-end: 34px;
+    position: relative;
+    font-weight: bold;
+    inset-inline-start: 25px;
+}
+
+.jbl760nc-image .original-price {
+    position: relative;
+    inset-block-end: 34px;
+    color: gray;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 15px;
+    inset-inline-start: 30px;
+}
+
+.boat255r-image .boat255r {
+    block-size: 150px;
+}
+
+.boat255r-image .product-name {
+    position: relative;
+    inset-block-end: 210px;
+    inset-inline-start: 22px;
+}
+
+.boat255r-image .price {
+    inset-block-end: 34px;
+    position: relative;
+    font-weight: bold;
+    inset-inline-start: 25px;
+}
+
+.boat255r-image .original-price {
+    position: relative;
+    inset-block-end: 34px;
+    color: gray;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 15px;
+    inset-inline-start: 30px;
+}
+
+/* ---------------------------------------------------------------boat-versions-media-quiries---- */
+@media (min-width: 425px)and(max-width:768px) {
+    .boat-versions {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+
+    .boat-image .jbl-endu {
+        block-size: 150px;
+    }
+
+    .boat-image .product-name {
+        position: relative;
+        inset-block-end: 210px;
+        inset-inline-start: 31px;
+    }
+
+    .boat-image .sport {
+        position: relative;
+        inset-inline-start: 33px;
+    }
+
+    .boat-image .price {
+        inset-block-end: 49px;
+        position: relative;
+        font-weight: bold;
+        inset-inline-start: 25px;
+    }
+
+    .boat-image .original-price {
+        position: relative;
+        inset-block-end: 49px;
+        color: gray;
+        text-decoration: line-through;
+        font-weight: bold;
+        font-size: 15px;
+        inset-inline-start: 30px;
+    }
+
+    .boat203-image .boat203 {
+        block-size: 150px;
+    }
+
+    .boat203-image .product-name {
+        position: relative;
+        inset-block-end: 210px;
+        inset-inline-start: 22px;
+    }
+
+    .boat203-image .price {
+        inset-block-end: 34px;
+        position: relative;
+        font-weight: bold;
+        inset-inline-start: 25px;
+    }
+
+    .boat203-image .original-price {
+        position: relative;
+        inset-block-end: 34px;
+        color: gray;
+        text-decoration: line-through;
+        font-weight: bold;
+        font-size: 15px;
+        inset-inline-start: 30px;
+    }
+
+    .boat518-image .boat518 {
+        block-size: 150px;
+    }
+
+    .boat518-image .product-name {
+        position: relative;
+        inset-block-end: 210px;
+        inset-inline-start: 22px;
+    }
+
+    .boat518-image .price {
+        inset-block-end: 34px;
+        position: relative;
+        font-weight: bold;
+        inset-inline-start: 25px;
+    }
+
+    .boat518-image .original-price {
+        position: relative;
+        inset-block-end: 34px;
+        color: gray;
+        text-decoration: line-through;
+        font-weight: bold;
+        font-size: 15px;
+        inset-inline-start: 30px;
+    }
+
+    .jbl760nc-image .jbl760nc {
+        block-size: 150px;
+    }
+
+    .jbl760nc-image .product-name {
+        position: relative;
+        inset-block-end: 210px;
+        inset-inline-start: 22px;
+    }
+
+    .jbl760nc-image .price {
+        inset-block-end: 34px;
+        position: relative;
+        font-weight: bold;
+        inset-inline-start: 25px;
+    }
+
+    .jbl760nc-image .original-price {
+        position: relative;
+        inset-block-end: 34px;
+        color: gray;
+        text-decoration: line-through;
+        font-weight: bold;
+        font-size: 15px;
+        inset-inline-start: 30px;
+    }
+
+    .boat255r-image .boat255r {
+        block-size: 150px;
+    }
+
+    .boat255r-image .product-name {
+        position: relative;
+        inset-block-end: 210px;
+        inset-inline-start: 22px;
+    }
+
+    .boat255r-image .price {
+        inset-block-end: 34px;
+        position: relative;
+        font-weight: bold;
+        inset-inline-start: 25px;
+    }
+
+    .boat255r-image .original-price {
+        position: relative;
+        inset-block-end: 34px;
+        color: gray;
+        text-decoration: line-through;
+        font-weight: bold;
+        font-size: 15px;
+        inset-inline-start: 30px;
+    }
+}
+
+.best-ones {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 50px 0px;
+}
+
+.all-types {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: white;
+    margin-block-end: 65px;
+}
+
+.all-types span {
+    border: 1px solid rgb(12, 12, 12);
+    padding: 1px 7px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.all:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.headphones:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.earbuds:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.earphones:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.neckbands:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.all-cards {
+    display: flex;
+    color: white;
+    gap: 35px;
+    margin-block-end: 20px;
+}
+
+.productcard {
+    border: 1px solid whitesmoke;
+    inline-size: 257px;
+    block-size: 390px;
+    position: relative;
+    inset-inline-start: 40px;
+}
+
+.jbl660nc {
+    block-size: 135px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    inline-size: 200px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.jbl660nc {
+    inline-size: 84%;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.card1-information h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    position: relative;
+    inset-inline-start: 15px;
+}
+
+.description {
+    font-size: 14px;
+    color: #888;
+    position: relative;
+    inset-inline-start: 15px;
+}
+
+.rating {
+    margin: 10px 0;
+    color: red;
+    font-size: 18px;
+    position: relative;
+    inset-inline-start: 15px;
+}
+
+.price {
+    margin: 15px 0;
+    position: relative;
+    inset-inline-start: 15px;
+}
+
+.current-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.original-price {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #888;
+    font-weight: bold;
+    margin-inline-start: 10px;
+}
+
+.add-to-cart {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+    position: relative;
+    inline-size: 92%;
+    inset-inline-start: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: green;
+}
+
+.new-ones {
+    border: 1px solid whitesmoke;
+    inline-size: 257px;
+    block-size: 390px;
+    position: relative;
+    inset-inline-start: 40px;
+}
+
+.browser {
+    background: none;
+    border: none;
+    position: relative;
+    inset-inline-start: 52px;
+    color: #888;
+    inset-block-start: 170px;
+}
+
+.advan {
+    margin-block-start: 100px;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.delivery-partner {
+    display: flex;
+    color: red;
+    justify-content: space-around;
+}
+
+.partner .delivery {
+    color: white;
+    font-size: 25px;
+    margin-block-end: 7px;
+    margin-block-start: 13px;
+}
+
+.regular .regular-brand {
+    color: white;
+    font-size: 25px;
+    margin-block-end: 7px;
+    margin-block-start: 13px;
+}
+
+.exicting-deal .deal {
+    color: white;
+    font-size: 25px;
+    margin-block-end: 7px;
+    margin-block-start: 13px;
+}
+
+.secure-payments .secure {
+    color: white;
+    font-size: 25px;
+    margin-block-end: 7px;
+    margin-block-start: 13px;
+}
+
+.partner .time {
+    color: #888;
+    margin-block-start: 7px;
+}
+
+.regular .quality {
+    color: #888;
+    margin-block-start: 7px;
+}
+
+.exicting-deal .orders {
+    color: #888;
+    margin-block-start: 7px;
+}
+
+.secure-payments .security {
+    color: #888;
+    margin-block-start: 7px;
+}
+
+.truck {
+    position: relative;
+    inset-inline-end: 46px;
+    inset-block-start: 41px;
+    font-size: 30px;
+}
+
+.warrenty {
+    position: relative;
+    inset-inline-end: 46px;
+    inset-block-start: 41px;
+    font-size: 30px;
+}
+
+.deals {
+    position: relative;
+    inset-inline-end: 46px;
+    inset-block-start: 41px;
+    font-size: 30px;
+}
+
+.payments {
+    position: relative;
+    inset-inline-end: 46px;
+    inset-block-start: 41px;
+    font-size: 30px;
+}
+
+.topfooter {
+    display: flex;
+    gap: 150px;
+    padding-inline-start: 10px;
+    border: 1px solid black;
+    background-color: #1c1c1c;
+}
+
+.subscribesec {
+    inline-size: 250px;
+}
+
+.subscribesec h1 {
+    color: #888;
+}
+
+.subscribesec p {
+    color: #888;
+}
+
+.subscribebtn {
+    color: white;
+    background-color: red;
+    border: none;
+    inline-size: 100px;
+    block-size: 30px;
+    border-radius: 5px;
+    transition: background-color 0.9s ease;
+}
+
+.subscribebtn:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.emailfrsubscribe {
+    background-color: black;
+    block-size: 30px;
+    inline-size: 250px;
+    padding-inline-start: 10px;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+
+.footercontent {
+    display: flex;
+    gap: 100px;
+    color: #888;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    margin: 10PX;
+}
+
+.footerhr {
+    border: 1px solid grey;
+    width: auto;
+}
+
+.bottomfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline-start: 20px;
+
+}
+
+.rightstxt p {
+    color: #888;
+}
+
+.icons {
+    font-size: x-large;
+    padding-inline-end: 90px;
+    gap: 40px;
+    display: flex;
+}
+
+.add-cart {
+    border: 1px solid #1d1c1c;
+    inline-size: 50%;
+    block-size: 450px;
+    background-color: #1d1c1c;
+    margin: 80px 30px 20px 170px;
+    overflow-y: scroll;
+}
+
+.cart-image .image1 {
+    block-size: 125px;
+    inline-size: 125px;
+}
+
+.cart1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-block-start: 45px;
+}
+
+.cart-price .series {
+    margin-block-end: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #888;
+}
+
+.cart-price .series1 {
+    margin-block-start: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #888;
+}
+
+.cart-price .discount-price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cart-price .normal-price {
+    font-size: 13px;
+    font-weight: bold;
+    color: #888;
+    text-decoration: line-through;
+    position: relative;
+    inset-inline-start: 3px;
+}
+
+.delete-btn .delete {
+    position: relative;
+    inset-block-start: 16px;
+    color: #888;
+    transition: background-color 0.9s ease;
+}
+
+.delete:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    block-size: 22px;
+    inline-size: 103px;
+    position: relative;
+    inset-inline-start: 40%;
+    inset-block-end: 41px;
+}
+
+.counter button {
+    background-color: #444;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    block-size: 18px;
+}
+
+.counter .value {
+    color: red;
+    font-size: 16px;
+    margin: 0px 5px;
+    inline-size: 20px;
+    text-align: center;
+}
+
+.counter button:hover {
+    background-color: #555;
+}
+
+.counter span {
+    color: red;
+    font-size: 20px;
+    margin: 0 15px;
+    inline-size: 20px;
+    text-align: center;
+}
+
+hr {
+    inline-size: 520px;
+    color: #555;
+}
+
+.all-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary {
+    color: white;
+    margin-block-start: 80px;
+    display: flex;
+    margin-inline-end: 60px;
+    border: 1px solid rgb(12, 12, 12);
+    inline-size: 23%;
+    block-size: 315px;
+}
+
+.prices {
+    position: relative;
+    inset-block-start: 42px;
+    inset-inline-end: 67px;
+    font-weight: bold;
+}
+
+.orders .line {
+    inline-size: 240px;
+    color: #888;
+    position: relative;
+    inset-block-start: 35px;
+}
+
+.orders .price1 {
+    color: #888;
+}
+
+.orders .discount-1 {
+    color: #888;
+}
+
+.orders .delivery-1 {
+    color: #888;
+}
+
+.prices .offer-1 {
+    color: green;
+}
+
+.prices .free {
+    color: green;
+}
+
+.orders .total-money {
+    margin-block-start: 75px;
+    color: #888;
+}
+
+.prices .money {
+    margin-block-start: 94px;
+    font-weight: bold;
+}
+
+.orders .check-out {
+    margin-block-start: 6px;
+    inline-size: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 7px;
+    transition: background-color 0.9s ease;
+}
+
+.check-out:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.productImages{
+    margin: 10px;
+}
+
+.productDetails{
+    background-color: black;
+    display: flex;
+}
+.productImg-side{
+    width: 110px;
+    height: 110px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 20px 25px;
+    padding: 10px;
+}
+.productImg-side:hover{
+    border: 2px solid white;
+}
+.product-Image{
+    width: 579px;
+    height: 961px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+.ratings{
+    display: flex;
+    margin: 15px 0px 20px -20px;
+}
+
+.productDetails-descriptions{
+    margin: 20px;
+}
+.productName{
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 700; 
+    font-size: 35px;
+}
+.productDescription{
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400; 
+    font-size: 25px;
+    margin: 3px 0px;
+}
+.starRating i{
+    color: red;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.yearRatings{
+    font-family:"Montserrat", sans-serif ; 
+    color:grey;
+    font-weight: 400; 
+    font-size: 20px;
+    margin-top: 0px;
+}
+.productAmount-deatils{
+    margin-top: 20px;
+    display: flex;
+}
+.offerPrice{
+    color: rgb(195, 186, 213);
+    padding:5px 5px 0px 0px ;
+    font-weight: 700;
+    font-size: 40px;
+    font-family:"Montserrat", sans-serif ;
+}
+.actualPrice{
+    color:grey;
+    padding:5px 5px 0px 15px ;
+    font-weight: 700;
+    font-size: 35px;
+    font-family:"Montserrat", sans-serif ;
+    text-decoration: line-through;
+}
+.savingAmount-description{
+    color: green;
+    font-family:"Montserrat", sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px 8px 0px;
+}
+.taxDescription{
+    color: grey;
+    font-family:"Montserrat", sans-serif ;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0px 25px 0px;
+}
+.offerDescription{
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400; 
+    font-size: 20px;
+    padding-top: 15px;
+}
+.stockBtn{
+    background-color: green;
+    color: white;
+    font-family:"Montserrat", sans-serif ; 
+    font-weight: 700; 
+    padding: 10px 15px;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.stock{
+    color: white;
+}
+.cashDetails{
+    display: flex;
+}
+.emiDetails{
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400; 
+    font-size: 15px;
+    border:1px solid grey;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 20px 7px 20px 7px;
+    width: 180px;
+}
+.horizontal{
+    border: 1px solid rgb(55, 55, 55);
+    width: 377px;
+}
+.addtoCartButton{
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 400; 
+    font-family:"Montserrat", sans-serif ; 
+    border-style: none;
+    border-radius: 3px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.specificationsBtn{
+    color: white;
+    background-color: red;
+    padding: 10px 15px;
+    font-family:"Montserrat", sans-serif ; 
+    border-style: none;
+    border-radius: 3px;
+    font-size: 25px;
+    margin: 0px 25px;
+}
+.overviewBtn,.reviewBtn{
+    color: rgb(195, 186, 213);
+    font-family:"Montserrat", sans-serif ; 
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 3px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    margin: 0px 25px;
+}
+.productFeatures{
+    padding: 200px 200px 0px 200px;
+    background-color: black;
+    text-align: center;
+}
+.overviewBtn:hover,.reviewBtn:hover{
+    background-color: red;
+}
+.productOverview{
+    display: flex;
+    background-color: black;
+    padding: 70px 0px 50px 30px;
+}
+li{
+    color: rgb(195, 186, 213);
+    font-family:"Montserrat", sans-serif ; 
+    padding: 15px;
+    list-style: none;
+}
+.productHeadings{
+    margin-right: 200px;
+}
+.productInfo ul li{
+   font-weight: 600;
+   text-align: end;
+}
+
+.advantagesSection{
+    background-color: black;
+    padding: 120px 30px 30px 30px;
+}
+.advantageTitle{
+    color: rgb(195, 186, 213);
+    text-align: center;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.advantages{
+    display: flex;
+    margin: 80px 0px 60px 0px;
+    justify-content: space-between;
+}
+.adv{
+    display:flex;
+}
+.advIcon{
+    color: red;
+    font-size: 50px;
+    padding-right: 10px;
+}
+.advantageHeading{
+    color: rgb(195, 186, 213);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.advantageDescription{
+    color: rgb(195, 186, 213);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.subscribeSection{
+    background-color:black;
+}
+.subscriberSection-Content{
+   padding: 40px 20px;
+   display: flex;
+}
+.subscriberHeading{
+    color:rgb(195, 186, 213) ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.subscriberDescription{
+    color:rgb(195, 186, 213) ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 7px 0px;
+}
+.subscriberEmail{
+    border-radius: 3px;
+    background: none;
+    border-style: none;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 0px 10px 10px ;
+    border: 1px solid grey;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.subscriberButton{
+    color: white;
+    background-color: red;
+    font-family: "Montserrat", sans-serif;
+    padding: 12px 25px;
+    border-style: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    transition: background-color 0.9s ease;
+}
+
+.subscriberButton:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.aboutCompanyDetails{
+    margin: 0px 70px;
+}
+td{
+    padding: 6px 100px;
+    font-family: "Montserrat", sans-serif ;
+    color:grey ;
+}
+.heading{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    color:rgb(195, 186, 213)  ;
+    font-size: 20px;
+}
+.footerContent{
+    padding: 20px 20px;
+    font-family:"Montserrat", sans-serif ; 
+    color:rgb(195, 186, 213);
+    font-weight: 400;
+    width: 75%;
+}
+.creator{
+    color: rgb(219, 184, 96);
+}
+.footerSection{
+    display: flex;
+    background-color: black;
+    
+}
+.socialmediaIcon{
+    padding: 20px 25px;
+    color:rgb(195, 186, 213);
+    
+}
+.horizontalLine{
+    border: 1px solid rgb(64, 63, 63);
+    margin: 0;
+}
+.productCards{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+    justify-content: space-evenly;
+}
+.productCard1{
+    width: 290px;
+    border:1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.productImage{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+    width: 100%;
+    object-fit: contain;
+}
+.productCard-title{
+    color:rgb(195, 186, 213) ;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 700;
+    padding: 8px 8px 0px 20px;
+    font-size: 30px;
+}
+.produtCard-description{
+    color:rgb(195, 186, 213) ;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    padding:8px 8px 0px 20px ;
+}
+.line-card-1{
+    border: 1px solid rgb(55, 55, 55);
+    margin: 15px 18px;
+    width: 257px;
+}
+
+.horizontalLine{
+    width: auto;
+}
+.productCard-bill{
+    color: rgb(195, 186, 213);
+    padding:5px 5px 0px 20px ;
+    font-weight: 700;
+    font-size: 30px;
+    font-family:"Montserrat", sans-serif ;
+}
+.productCard-oldamount{
+    color:grey;
+    padding:5px 5px 0px 20px ;
+    font-weight: 700;
+    font-size: 25px;
+    font-family:"Montserrat", sans-serif ;
+    text-decoration: line-through;
+}
+.productCard-button{
+    color: white;
+    background-color: red;
+    margin: 15px;
+    font-family:"Montserrat", sans-serif;
+    border-style: none;
+    padding: 10px 15px;
+    width: 92%;
+    border-radius: 3px;
+    transition: background-color 0.9s ease;
+}
+
+.productCard-button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.starRating{
+    color: red;
+    padding-left: 20px;
+}
+.relatedProducts{
+    padding: 90px 0px 70px 0px;
+    text-align: center;
+    background-color: black;
+    color: rgb(195, 186, 213) ;
+    font-weight: 700;
+    font-size: 30px;
+    font-family:"Montserrat", sans-serif ;
+}
